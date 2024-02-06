@@ -13,6 +13,9 @@ These are their workflow status badges:
 APPLE BADGE:
 
 
+[![Automated Unit Testing Apple 2](https://github.com/AniTei/social-media-client/actions/workflows/second-apple.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/second-apple.yml)
+
+
 
 1. The login function (unit) stores a token when provided with valid credentials
 
