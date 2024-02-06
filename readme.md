@@ -10,10 +10,13 @@ Tests are written for the project.
 These are their workflow status badges:
 
 
-APPLE BADGE:
+APPLE BADGE, second apple,:
 
 
 [![Automated Unit Testing Apple 2](https://github.com/AniTei/social-media-client/actions/workflows/second-apple.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/second-apple.yml)
+
+third apple, diff branch?:
+[![Automated Unit Testing](https://github.com/AniTei/social-media-client/actions/workflows/third-apple-test.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/third-apple-test.yml)
 
 
 
