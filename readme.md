@@ -9,6 +9,11 @@ All known bugs have (not yet) been communicated in the Issues tab.
 Tests are written for the project.
 These are their workflow status badges:
 
+
+APPLE BADGE:
+
+
+
 1. The login function (unit) stores a token when provided with valid credentials
 
 BADGE
