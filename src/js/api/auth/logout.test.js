@@ -1,4 +1,4 @@
-/* //imports the function we are testing
+ //imports the function we are testing
 import { logout } from './logout.js';
 
 const mockLocalStorage = {
@@ -16,4 +16,4 @@ describe('logout', () => {
 });
 
 
- */
+ 
