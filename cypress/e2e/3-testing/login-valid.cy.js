@@ -1,16 +1,30 @@
 /* DØME */
 //The user can log in with the login form with valid credentials
 
-// manually it works, should pass
 
-describe("login, valid input", () => {
+describe("Logging in and out, valid/invalid", () => {
     it("can log in with the login form with valid credentials", () => {
 
-/* 
-      cy.visit("https://no.wikipedia.org");
-      cy.get("input#searchInput").type("Noroff{enter}", { delay: 500 });
-      cy.get('h1').contains("Noroff")
- */
+        cy.visit("http://127.0.0.1:5500/")
+        
+        const validEmail = 'anitei32772@stud.noroff.no';
+        const validPassword = 'Hyssing123';
 
+        cy.contains('Login').click()
+
+        cy.get('#loginEmail').type(`${validEmail}{enter}`)
+
+        cy.get('#loginEmail')
+        .should('have.value', validEmail)
+
+        cy.get('#loginPassword').type(`${validPassword}{enter}`)
+
+        cy.get('#loginPassword')
+        .should('have.value', validPassword)
+
+        /* cy.contains('Login[type=submit]').click();*/
+        
+        cy.wait(5000);
+
+        })
     })
-  })
