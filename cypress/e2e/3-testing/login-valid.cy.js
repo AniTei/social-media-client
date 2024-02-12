@@ -1,8 +1,8 @@
-/* DØME */
 //The user can log in with the login form with valid credentials
 
+// use pages workflow!!
 
-describe("Logging in and out, valid/invalid", () => {
+describe("Login, valid input", () => {
     it("can log in with the login form with valid credentials", () => {
 
         cy.visit("http://127.0.0.1:5500/")
