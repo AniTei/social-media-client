@@ -1,4 +1,4 @@
-/* //imports the function we are testing
+//imports the function we are testing
 import { login } from "./login.js";
 
 // lesson 3.2
@@ -29,4 +29,4 @@ describe("login", () => {
     const data = await login(TEST_USERNAME, TEST_PASSWORD);
     expect(localStorage.getItem).toBeCalledWith('token');
   })
-}); */
+}); 
