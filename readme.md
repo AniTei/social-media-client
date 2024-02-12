@@ -36,30 +36,6 @@ BADGE
 unit-tests branch, to do: 
 - reread ca wording
 
-The login function (unit) stores a token when provided with valid credentials
-
-it (is provided with valid credentials) expect validation fx > 8 letters
-it (stores a token) expect token to be put in local storage?
-
-api? mock? No
-
-Manual testing, able to log in w email and password from JS2, and found token in local storage
-
-Not able to use the mouse though? , used tab??
-
-
-The logout function (unit) clears the token from browser storage
-
-yes it does, 
-
-
-It (is told to log out) … expect token to be cleared from browser?
-
-
 BOTH UNIT TESTS SHOULD PASS, BC THEY DO WHEN CHECKED MANUALLY
 
 
-- find relevant functions/files
-
-
-- create test files
