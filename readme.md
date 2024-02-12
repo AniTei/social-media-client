@@ -38,4 +38,15 @@ unit-tests branch, to do:
 
 BOTH UNIT TESTS SHOULD PASS, BC THEY DO WHEN CHECKED MANUALLY
 
+e2e-tests branch, to do_
+
+The user can log in with the login form with valid credentials
+I can create meaningful e2e tests
+
+The user cannot submit the login form with invalid credentials and is shown a message.
+I can create meaningful e2e tests
+
+The user can log out with the logout button
+I can create meaningful e2e tests
+
 
