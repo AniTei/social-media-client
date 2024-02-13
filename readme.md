@@ -1,4 +1,4 @@
-This project is the course assignment for the coure Workflow at Noroff, fall 23 and spring 24. 
+This project is the course assignment for the course Workflow at Noroff, fall 23 and spring 24. 
 
 The project is configured to run Prettier an ESlint on commit.
 
