@@ -12,6 +12,8 @@ These are their workflow status badges:
 [![Automated Unit Testing tirsdag](https://github.com/AniTei/social-media-client/actions/workflows/main.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/main.yml)
 
 
+[![Automated Unit Testing Apple](https://github.com/AniTei/social-media-client/actions/workflows/apple-test.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/apple-test.yml)
+
 
 3. The user can log in with the login form with valid credentials
 
