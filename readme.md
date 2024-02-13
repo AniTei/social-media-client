@@ -9,13 +9,7 @@ All known bugs have (not yet) been communicated in the Issues tab.
 Tests are written for the project.
 These are their workflow status badges:
 
-1. The login function (unit) stores a token when provided with valid credentials
-
-BADGE
-
-2. The logout function (unit) clears the token from browser storage
-
-BADGE
+[![Automated Unit Testing tirsdag](https://github.com/AniTei/social-media-client/actions/workflows/main.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/main.yml)
 
 
 
