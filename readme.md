@@ -9,7 +9,7 @@ All known bugs have (not yet) been communicated in the Issues tab.
 Tests are written for the project.
 These are their workflow status badges:
 
-[![Automated Unit Testing tirsdag](https://github.com/AniTei/social-media-client/actions/workflows/main.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/main.yml)
+[![Automated Unit Testing](https://github.com/AniTei/social-media-client/actions/workflows/unit-tests-tir-2355.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/unit-tests-tir-2355.yml)
 
 
 [![Automated Unit Testing Apple](https://github.com/AniTei/social-media-client/actions/workflows/apple-test.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/apple-test.yml)
