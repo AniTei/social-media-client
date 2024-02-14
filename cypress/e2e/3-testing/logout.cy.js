@@ -7,7 +7,7 @@
 describe("Logout", () => {
     it("can log out with the logout button", () => {
 
-        cy.visit("http://127.0.0.1:5500/")
+        cy.visit("https://norofffeu.github.io/social-media-client/")
 
         cy.contains('Logout').click()
 

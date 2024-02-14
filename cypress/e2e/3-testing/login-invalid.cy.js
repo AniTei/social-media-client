@@ -6,7 +6,7 @@ describe("login, invalid input", () => {
 
     it("can NOT submit the login form with invalid credentials and is shown a message", () => {
     
-        cy.visit("http://127.0.0.1:5500/")
+        cy.visit("https://norofffeu.github.io/social-media-client/")
 
         const inValidEmail = 'navn@post.no';
         const inValidPassword = 'pass';
