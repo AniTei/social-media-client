@@ -5,7 +5,7 @@
 describe("Login, valid input", () => {
     it("can log in with the login form with valid credentials", () => {
 
-        cy.visit("http://127.0.0.1:5500/")
+        cy.visit("https://norofffeu.github.io/social-media-client/")
         
         const validEmail = 'anitei32772@stud.noroff.no';
         const validPassword = 'Hyssing123';
@@ -21,10 +21,9 @@ describe("Login, valid input", () => {
 
         cy.get('#loginPassword')
         .should('have.value', validPassword)
-
-        /* cy.contains('Login[type=submit]').click();*/
         
         cy.wait(5000);
+
 
         })
     })
