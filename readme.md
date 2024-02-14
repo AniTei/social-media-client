@@ -16,3 +16,7 @@ These are their workflow status badges:
 OOOps, 3/4 e2e tests are feiling, only the example is passing. Think it is because I still have the local pathway. Have to figure out pages workflow and io. Only 1/3 should fail
 
 
+https://NoroffFEU.github.io/social-media-client/
+
+try to use this address for cypress
+
