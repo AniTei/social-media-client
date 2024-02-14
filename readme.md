@@ -4,7 +4,7 @@ The project is configured to run Prettier an ESlint on commit.
 
 The code is versioned, and branches have been used.
 
-All known bugs have (not yet) been communicated in the Issues tab.
+Known bugs have been communicated in the Issues tab.
 
 Tests are written for the project.
 These are their workflow status badges:
