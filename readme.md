@@ -13,10 +13,6 @@ These are their workflow status badges:
 
 [![Automated E2E Testing](https://github.com/AniTei/social-media-client/actions/workflows/e2e-tests-tir2357.yml/badge.svg)](https://github.com/AniTei/social-media-client/actions/workflows/e2e-tests-tir2357.yml)
 
-OOOps, 3/4 e2e tests are feiling, only the example is passing. Think it is because I still have the local pathway. Have to figure out pages workflow and io. Only 1/3 should fail
-
-
 https://NoroffFEU.github.io/social-media-client/
 
-try to use this address for cypress
 
