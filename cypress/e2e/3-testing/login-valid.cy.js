@@ -10,7 +10,11 @@ describe("Login, valid input", () => {
         const validEmail = 'anitei32772@stud.noroff.no';
         const validPassword = 'Hyssing123';
 
-        cy.contains('Login').click()
+        cy.wait(5000)        
+        
+        cy.get('#registerForm').find('[data-auth=login]').click()
+        
+        cy.wait(5000)
 
         cy.get('#loginEmail').type(`${validEmail}{enter}`)
 
@@ -23,7 +27,6 @@ describe("Login, valid input", () => {
         .should('have.value', validPassword)
         
         cy.wait(5000);
-
 
         })
     })
