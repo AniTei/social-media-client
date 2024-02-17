@@ -8,26 +8,43 @@ describe("login, invalid input", () => {
     
         cy.visit("https://norofffeu.github.io/social-media-client/")
         
-        cy.wait(5000)
+        cy.wait(2000)
 
         const inValidEmail = 'navn@post.no';
-        const inValidPassword = 'pass';
+        const validEmail = 'anitei32772@stud.noroff.no';
 
         cy.get('#registerForm').find('[data-auth=login]').click()
 
-        cy.wait(5000)
+        cy.wait(2000)
+        
 
         cy.get('#loginEmail').type(`${inValidEmail}{enter}`)
 
         cy.get('#loginEmail')
         .should('have.value', inValidEmail)
 
-        cy.get('#loginPassword').type(`${inValidPassword}{enter}`)
+        cy.get('#loginEmail').then($el => $el[0].checkValidity()).should('be.false')
 
-        cy.get('#loginPassword')
-        .should('have.value', inValidPassword)
+        cy.get('#loginEmail').invoke('prop', 'validationMessage')
+        .should('equal', 'Sørg for samsvar med det forespurte formatet.')
 
-        /*  cy.contains('message') */
-    
+        cy.wait(2000)
+
+
+        cy.get('#loginEmail').clear().type(`${validEmail}{enter}`)
+
+        cy.get('#loginEmail').invoke('prop', 'validationMessage')
+        .should('equal', '')
+
+        cy.get('#loginForm').find('[type=submit]').click()
+
+        cy.get('#loginPassword').then($el => $el[0].checkValidity()).should('be.false')
+
+        cy.get('#loginPassword').invoke('prop', 'validationMessage')
+        .should('equal', 'Vennligst fyll ut dette feltet.')
+
+/* source:
+https://glebbahmutov.com/blog/form-validation-in-cypress/
+*/
     })
   })
