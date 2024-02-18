@@ -46,7 +46,12 @@ describe("login, invalid input", () => {
         cy.get('#loginPassword').then($el => $el[0].checkValidity()).should('be.false')
 
         cy.get('#loginPassword').invoke('prop', 'validationMessage')
-        .should('equal', 'Vennligst fyll ut dette feltet.')
+        .should('equal', 'Please fill out this field.')
+
+/*         .should('equal', 'Vennligst fyll ut dette feltet.')
+ */
+
+        
 
 /* source:
 https://glebbahmutov.com/blog/form-validation-in-cypress/
