@@ -26,7 +26,12 @@ describe("login, invalid input", () => {
         cy.get('#loginEmail').then($el => $el[0].checkValidity()).should('be.false')
 
         cy.get('#loginEmail').invoke('prop', 'validationMessage')
-        .should('equal', 'Sørg for samsvar med det forespurte formatet.')
+
+
+      /*   .should('equal', 'Sørg for samsvar med det forespurte formatet.') */
+        
+        .should('equal', ' Please match the requested format.')
+
 
         cy.wait(2000)
 
