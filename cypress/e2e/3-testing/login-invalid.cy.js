@@ -30,7 +30,7 @@ describe("login, invalid input", () => {
 
       /*   .should('equal', 'Sørg for samsvar med det forespurte formatet.') */
         
-        .should('equal', ' Please match the requested format.')
+        .should('equal', 'Please match the requested format.')
 
 
         cy.wait(2000)
