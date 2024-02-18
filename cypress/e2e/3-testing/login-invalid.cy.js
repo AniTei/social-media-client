@@ -45,6 +45,8 @@ describe("login, invalid input", () => {
 
 /* source:
 https://glebbahmutov.com/blog/form-validation-in-cypress/
+
+testing in chrome
 */
     })
   })
